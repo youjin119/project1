@@ -26,7 +26,7 @@ nav{
   width: 100%;
   height: 768px;
   /* background-image: url("../img/mobileTitle.jpg"); */
-  background-image: url("/coupangEats/img/pcTitle.jpg");
+  background-image: url("../img/pcTitle.jpg");
   background-size: cover;
   position: relative;
 }
@@ -144,7 +144,7 @@ nav{
 #better{
   width: 100%;
   height: 85vh;
-  background-image: url("/coupangEats/img/pcTitle01.jpg");
+  background-image: url("../img/pcTitle01.jpg");
   /* background-size: cover; */
   background-size: cover;
   background-position-x: -200px;
