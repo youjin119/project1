@@ -28,12 +28,13 @@
   $(document).ready(function(){
     $(".slider").slick( {
           autoplay: true,
-          autoplaySpeed: 2000, //1000ms = 1s 1초
+          autoplaySpeed: 0, //1000ms = 1s 1초
+          speed:2000,
           cssEase:"linear",
           slidesToShow: 7, //처음 보여줄 갯수
           slidesToScroll: 1, //몇개씩 움직일지
-          pauseOnFocus: false, //마우스가 올라가면 멈출지 결정
-          pauseOnHover: false, // -
+          pauseOnFocus: true, //마우스가 올라가면 멈출지 결정
+          pauseOnHover: true, // -
           responsive: [ //반응형 설정
             // {
             //   breakpoint: 768,
@@ -57,7 +58,7 @@
 <body>
 
     <!-- navigation -------------------------------------------------->
-    <nav class="navbar navbar-expand-md sticky-top">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
       <!-- Brand -->
       <a class="navbar-brand" href="#"><img src="img/Eats.png" alt="로고"></a>
     

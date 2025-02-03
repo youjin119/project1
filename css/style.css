@@ -12,6 +12,14 @@ nav{
   top: 0 !important; */
 
 }
+nav.bg-dark{
+  background: #0292D8 !important;
+}
+nav a{
+  color: white;
+  font-size: 15px !important;
+  padding: 5px 10px !important;
+}
 
 .navbar-brand img{
   width: 180px;
